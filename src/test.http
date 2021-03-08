@@ -1,0 +1,11 @@
+POST http://localhost:3001/app/contact
+Content-Type: application/json
+
+{
+    "name":"Sandeep Sharma",
+    "email":"som@gmail.com",
+    "phone":9981593169,
+    "address":"Ravidas Colony",
+    "Subject":"Timepass",
+    "Message":"Timepas// ke liye"
+ }

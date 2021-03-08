@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+.menu_style {
+  font-size: 1.8rem;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  color: #fff !important;
+
+}
+
+a.active_class {
+  color: #fddb3a !important;
+  text-decoration: none !important;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+/* <!--About_div--> */
+
+.about_div {
+
+  background-image: linear-gradient(rgba(100, 200, 100, 0.2), rgba(250, 250, 250, 0.4)),url('./Images/img1.jpg');
+  width: 100%;
+  height: 90vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  
+}
+
+.Profile {
+    width: 25rem;
+    position: relative;
+    height: 25rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    clip-path: circle(50% at 50% 50%);
+
+}
+
+.resume {
+  width: 12.5rem;
+  height: 3rem;
+  justify-content: center;
+  position: absolute;
+  top: 31.5rem;
+  left: 8.5rem;
+  color:  #000 !important;
+  font-size: 1rem;
+  font-weight: bold;
+  border-top: none !important;
+}
+
+.about_me_div {
+
+  width: 50vw;
+  height: 90vh;
+  background-color: #252525;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: inherit;
+  opacity: 0.8;
+}
+
+.about_me_head {
+  font-size: 2.5rem;
+  font-family: 'Coda Caption', sans-serif;
+  font-weight: 900;
+  position: relative;
+  top: 4rem;
+  color: #fff;
+
+}
+
+.about_me_Detail {
+  font-size: 1.5rem;
+  font-family: 'Yusei Magic', sans-serif;  font-weight: 500;
+  position: absolute;
+  top: 12rem;
+  color: #ef4f4f;
+}
+
+.email{
+  font-size: 1.5rem;
+  font-family: 'Yusei Magic', sans-serif;  
+  font-weight: 500;
+  position: relative;
+  top: 24rem;
+  color: #ef4f4f;
+}
+
+/* Skills**** */
+
+.skills {
+
+  background-image: linear-gradient(#000000, #434343, #9a8478);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.skills_Img1, .skills_Img2, .skills_Img3, .skills_Img4   {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  width: 10rem;
+  height: 10rem;
+  box-shadow: 0.4rem 0.1rem 0.4rem 0.1rem #000;
+  border-radius: 4px;
+}
+
+.skills_Img1:hover{
+    width: 12rem;
+} 
+
+.skills_Img2:hover{
+  width: 12rem;
+}
+
+.skills_Img3:hover{
+  width: 12rem;
+}
+
+.skills_Img4:hover{
+  width: 12rem;
+}
+
+/* ------- */
+.skills_Img5, .skills_Img6, .skills_Img7, .skills_Img8   {
+  position: absolute;
+  top: 14rem;
+  left: 5rem;
+  width: 10rem;
+  height: 10rem;
+  box-shadow: 0.4rem 0.1rem 0.4rem 0.1rem #000;
+  border-radius: 4px;
+}
+
+.skills_Img5:hover{
+    width: 12rem;
+} 
+
+.skills_Img6:hover{
+  width: 12rem;
+}
+
+.skills_Img7:hover{
+  width: 12rem;
+}
+
+.skills_Img8:hover{
+  width: 12rem;
+}
+
+
+/* ------- */
+.skills_Img9, .skills_Img10, .skills_Img11, .skills_Img12   {
+  position: absolute;
+  top: 26rem;
+  left: 5rem;
+  width: 10rem;
+  height: 10rem;
+  box-shadow: 0.4rem 0.1rem 0.4rem 0.1rem #000;
+  border-radius: 4px;
+}
+
+.skills_Img9:hover{
+    width: 12rem;
+} 
+
+.skills_Img10:hover{
+  width: 12rem;
+}
+
+.skills_Img11:hover{
+  width: 12rem;
+}
+
+.skills_Img12:hover{
+  width: 12rem;
+}
+
+/* Contact******* */
+
+
+
+form {
+  position: relative;
+  top: 2rem;
+}
+
+.form_head{
+  margin-left: 3rem;
+}
+
+.contact {
+  background-image: linear-gradient(rgba(0, 150, 180, 0.9), rgba(100, 0, 100, 0.8)),url('./Images/contact.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+
+}
+
+label {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.form_head{
+
+  font-family: 'Lemonada', cursive;
+  color: #fff;
+  font-size: 5rem;
+  mix-blend-mode: overlay;
+  position: relative;
+  top: 2rem;
+  left: 0.8rem;
+
+}
+.emailContact{
+  width: 20rem !important;
+  height: 20vh !important;
+  position: relative;
+  top: 4rem;
+  color: rgb(209, 72, 54);
+}
+
+.LinkedInContact{
+  width: 20rem !important;
+  height: 20vh !important;
+  position: relative;
+  top: 4rem;
+  color: #007bff;
+}
+
+.PhoneContact{
+  width: 20rem !important;
+  height: 20vh !important;
+  position: relative;
+  top: 8rem;
+}
+
+.GitHubContact{
+  width: 20rem !important;
+  height: 20vh !important;
+  position: relative;
+  top: 8rem;
+  color: #212529;
+}
+
+
+.Foot {
+  width: 100%;
+  height: 4vh;
+  background-color: #000;
+  position: relative;
+  margin: auto;
+
+}
+
+.Foot h1 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Yusei Magic', sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.projects_div {
+
+  background-image: linear-gradient(#0f0c29, #302b63, #24243e);
+  background-position: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.card {
+  
+  position: relative;
+  top: 10rem;
+  left: 2rem;
+  width: 20rem;
+  height: 40vh;
+
+}
+
+
+/* Media Queries */
+
